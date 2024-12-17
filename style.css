@@ -1,0 +1,51 @@
+/* Reset Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #18181b; /* Twitch dark background */
+    color: #fff;
+  }
+  
+  /* Panel Container */
+  #panel-container {
+    padding: 20px;
+    text-align: center;
+    background: #29292e; /* Slightly lighter Twitch panel background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Headings */
+  h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #9147ff; /* Twitch Purple */
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #9147ff; /* Twitch Purple */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #772ce8; /* Darker purple */
+  }
+  
+  /* Response Message */
+  #response-message {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #14db9a; /* Success green */
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Twitch Panel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: white;
+      text-align: center;
+    }
+    .panel {
+      width: 320px;
+      height: 180px;
+      background-color: #181818;
+      border: 2px solid #6441a5;
+      border-radius: 10px;
+      margin: 50px auto;
+      padding: 10px;
+    }
+    .panel img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .panel .content {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .panel .content h3 {
+      font-size: 22px;
+      margin: 0;
+      font-weight: bold;
+    }
+    .panel .content p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="panel">
+    <div class="content">
+      <h3>Streamer Name</h3>
+      <p>Welcome to my stream! Enjoy the gameplay!</p>
+    </div>
+  </div>
+
+</body>
+</html>
